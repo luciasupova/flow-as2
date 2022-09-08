@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contat Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="div-form">
+        <form id="contact-form">
+            <h1>Contact Form</h1>
+            <input type="email" placeholder="Email" id="email" pattern="[a-z0-9._%+-]+@cphbusiness.dk">
+            <input type="text" placeholder="Name" id="name" >
+            <input type="text" placeholder="Message" id="message" minlength="8" >
+            <button type="submit" id="btn-submit">Submit</button>
+
+            <div id="errors"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
